@@ -3,6 +3,9 @@ using System.Collections;
 
 public class PlayerController_Blue : MonoBehaviour {
 
+	public GameObject theGameController;
+	public GameController gcscript;
+
 	public AudioSource jumpingSound;
 	public AudioSource landingSound;
 	public AudioSource attackingSound;
@@ -42,15 +45,41 @@ public class PlayerController_Blue : MonoBehaviour {
 			attackCooldownTimer -= dt;
 		}
 
-		//Move around, jump, attaack, etc. Basically make use of the input values now.
-		if (rigidbody2D != null)
+		//Get a reference to the GameController script in the GameController object.
+		if (theGameController != null)
 		{
-			rigidbody2D.velocity = new Vector2(horiz * movespeed * dt, rigidbody2D.velocity.y);
+			gcscript = theGameController.GetComponent<GameController>();
+			
 		}
-
-		if (doJump && canJump > 0)
+		else
 		{
-			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpSpeed);
+			Debug.Log("ERROR: Couldn't get a reference to the GameController.");
+		}
+		
+		if (gcscript != null)
+		{
+			//Am I selected?
+			if (gcscript.selectedCharacter == gameObject)
+			{
+				//Move around, jump, attaack, etc. Basically make use of the input values now.
+				if (rigidbody2D != null)
+				{
+					//Move around, jump, attaack, etc. Basically make use of the input values now.
+					if (rigidbody2D != null)
+					{
+						rigidbody2D.velocity = new Vector2(horiz * movespeed * dt, rigidbody2D.velocity.y);
+					}
+					
+					if (doJump && canJump > 0)
+					{
+						rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpSpeed);
+					}
+				}
+			}
+		}
+		else
+		{
+			Debug.Log("ERROR: Got a reference to the GameController, but not the script it should be hosting.");
 		}
 	
 	}

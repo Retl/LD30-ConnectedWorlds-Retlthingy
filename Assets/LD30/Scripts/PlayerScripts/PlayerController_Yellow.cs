@@ -3,15 +3,18 @@ using System.Collections;
 
 public class PlayerController_Yellow : MonoBehaviour {
 
+	public GameObject theGameController;
+	public GameController gcscript;
+
 	public AudioSource jumpingSound;
 	public AudioSource landingSound;
 	public AudioSource attackingSound;
-	
+
 	public float vert = 0;
 	public float horiz = 0;
 	public bool doAct = false;
 	
-	float movespeed = 128.0f;
+	float movespeed = 256.0f;
 	
 	float dt = 0;
 	float attackCooldown = 1.5f;
@@ -37,11 +40,33 @@ public class PlayerController_Yellow : MonoBehaviour {
 		{
 			attackCooldownTimer -= dt;
 		}
-		
-		//Move around, jump, attaack, etc. Basically make use of the input values now.
-		if (rigidbody2D != null)
+
+		//Get a reference to the GameController script in the GameController object.
+		if (theGameController != null)
 		{
-			rigidbody2D.velocity = new Vector2(horiz * movespeed * dt, vert * movespeed * dt);
+			gcscript = theGameController.GetComponent<GameController>();
+
+		}
+		else
+		{
+			Debug.Log("ERROR: Couldn't get a reference to the GameController.");
+		}
+
+		if (gcscript != null)
+		{
+			//Am I selected?
+			if (gcscript.selectedCharacter == gameObject)
+			{
+				//Move around, jump, attaack, etc. Basically make use of the input values now.
+				if (rigidbody2D != null)
+				{
+					rigidbody2D.velocity = new Vector2(horiz * movespeed * dt, vert * movespeed * dt);
+				}
+			}
+		}
+		else
+		{
+			Debug.Log("ERROR: Got a reference to the GameController, but not the script it should be hosting.");
 		}
 		
 	}
