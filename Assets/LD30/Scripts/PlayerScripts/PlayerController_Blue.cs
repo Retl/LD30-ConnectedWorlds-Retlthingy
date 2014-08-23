@@ -6,9 +6,9 @@ public class PlayerController_Blue : MonoBehaviour {
 	public GameObject theGameController;
 	public GameController gcscript;
 
-	public AudioSource jumpingSound;
-	public AudioSource landingSound;
-	public AudioSource attackingSound;
+	public AudioClip jumpingSound;
+	public AudioClip landingSound;
+	public AudioClip attackingSound;
 
 	public float vert = 0;
 	public float horiz = 0;

@@ -61,6 +61,10 @@ public class PlayerController_Yellow : MonoBehaviour {
 				if (rigidbody2D != null)
 				{
 					rigidbody2D.velocity = new Vector2(horiz * movespeed * dt, vert * movespeed * dt);
+					if (rigidbody2D.velocity.magnitude > 0)
+					{
+						transform.rotation = Quaternion.Euler(0f, 0f, ( Mathf.Atan2(rigidbody2D.velocity.y, rigidbody2D.velocity.x) * Mathf.Rad2Deg) - 90);
+					}
 				}
 			}
 		}
