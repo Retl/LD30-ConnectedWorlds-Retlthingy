@@ -58,4 +58,16 @@ public class GameController : MonoBehaviour {
 	void OnGUI () {
 		GUI.Label(new Rect(0, 0, Screen.width, Screen.height), "Time remaining: " + timeRemaining.ToString("f"));
 	}
+
+	public void AdvanceLevel()
+	{
+		if (Application.loadedLevel < Application.levelCount - 1)
+		{
+			Application.LoadLevel(Application.loadedLevel + 1);
+		}
+		else
+		{
+			Application.LoadLevel(0);
+		}
+	}
 }
