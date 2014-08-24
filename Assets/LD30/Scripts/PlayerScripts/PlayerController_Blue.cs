@@ -76,6 +76,7 @@ public class PlayerController_Blue : MonoBehaviour {
 					
 					if (doJump && canJump > 0)
 					{
+						audio.Play();
 						rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpSpeed);
 					}
 

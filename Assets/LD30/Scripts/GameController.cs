@@ -13,15 +13,16 @@ public class GameController : MonoBehaviour {
 	//public System.Collections.Generic.List<GameObject> selectableCharacters = new System.Collections.Generic.List<GameObject>(3);
 
 	public bool doCamSwitch;
+	public bool gameOver = false;
 
-	public float timeRemaining = 300.0f;
+	public float timeRemaining = 60.0f;
 
 	// Use this for initialization
 	void Start () {
 		sfxPlayer = gameObject.GetComponent<AudioSource>();
 		if (selectedCharacter == null && selectableChar1 != null)
 		{
-			selectableChar1 = selectableChar1;
+			selectedCharacter = selectableChar1;
 		}
 	}
 	
@@ -29,6 +30,14 @@ public class GameController : MonoBehaviour {
 	void Update () {
 		//Always decrement the timer first.
 		timeRemaining -= Time.deltaTime;
+		if (timeRemaining <= 0)
+		{
+			timeRemaining = 0;
+			if (!gameOver)
+			{
+				gameOver = true;
+			}
+		}
 
 		doCamSwitch = Input.GetButtonDown("Fire2");
 
@@ -59,6 +68,12 @@ public class GameController : MonoBehaviour {
 		{
 			Application.Quit();
 		}
+
+		if (gameOver)
+		{
+			StartCoroutine(WaitABit());
+			Application.LoadLevel(Application.loadedLevel);
+		}
 	}
 	
 	void OnGUI () {
@@ -75,5 +90,10 @@ public class GameController : MonoBehaviour {
 		{
 			Application.LoadLevel(0);
 		}
+	}
+
+	IEnumerator WaitABit()
+	{
+		yield return new WaitForSeconds(1);
 	}
 }
