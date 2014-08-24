@@ -32,6 +32,7 @@ public class GameController : MonoBehaviour {
 
 		doCamSwitch = Input.GetButtonDown("Fire2");
 
+
 		if (doCamSwitch)
 		{
 			bool switched = false;
@@ -52,6 +53,11 @@ public class GameController : MonoBehaviour {
 				sfxPlayer.Play();
 			}
 			//TODO: Tweak this so that it can support any number of characters, not just two.
+		}
+
+		if (Input.GetButtonDown("Quit"))
+		{
+			Application.Quit();
 		}
 	}
 	

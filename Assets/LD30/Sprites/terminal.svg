@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="491.4375"
+   height="820"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="terminal.svg"
+   inkscape:export-filename="C:\Users\Carlis\Documents\GitHub\LD30-ConnectedWorlds-Retlthingy\Assets\LD30\Sprites\terminal.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <title
+     id="title2995">terminal</title>
+  <defs
+     id="defs4">
+    <linearGradient
+       osb:paint="gradient"
+       id="linearGradient3852">
+      <stop
+         id="stop3854"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.5"
+         id="stop3858" />
+      <stop
+         id="stop3856"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0.5945946;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3834">
+      <stop
+         style="stop-color:#416aa0;stop-opacity:0.55855858;"
+         offset="0"
+         id="stop3836" />
+      <stop
+         style="stop-color:#99d3fb;stop-opacity:0;"
+         offset="1"
+         id="stop3838" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3817"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#c5c5df;stop-opacity:1;"
+         offset="0"
+         id="stop3819" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3809"
+       osb:paint="solid"
+       gradientTransform="matrix(1.0460322,0,0,0.1192733,-20.714495,241.68344)">
+      <stop
+         style="stop-color:#e6ecf5;stop-opacity:1;"
+         offset="0"
+         id="stop3811" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5011"
+       id="linearGradient5017"
+       x1="141.42857"
+       y1="453.79077"
+       x2="667.14288"
+       y2="453.79077"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-858.07648,-858.07648)" />
+    <linearGradient
+       id="linearGradient5011"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#3095ff;stop-opacity:1;"
+         offset="0"
+         id="stop5013" />
+      <stop
+         style="stop-color:#9af6f3;stop-opacity:0.65765768;"
+         offset="1"
+         id="stop5015" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3817"
+       id="linearGradient3821"
+       x1="-1490"
+       y1="12.362183"
+       x2="-1244.2856"
+       y2="12.362183"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5011"
+       id="linearGradient3828"
+       gradientTransform="scale(1.005588,0.99444309)"
+       x1="461.70569"
+       y1="533.06525"
+       x2="458.86444"
+       y2="188.29222"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3834"
+       id="linearGradient3840"
+       x1="448.56564"
+       y1="706.59857"
+       x2="451.4343"
+       y2="570.39166"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.82782579,0,97.715003)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3852"
+       id="linearGradient3850"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.97487668,0,0,0.2342066,13.743281,147.30801)"
+       x1="461.70569"
+       y1="533.06525"
+       x2="458.86444"
+       y2="188.29222" />
+    <filter
+       inkscape:collect="always"
+       id="filter3924">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.7727148"
+         id="feGaussianBlur3926" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.58"
+     inkscape:cx="201.26062"
+     inkscape:cy="335.80777"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>terminal</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-204.28125,-139.5)">
+    <rect
+       style="fill:url(#linearGradient3817);fill-opacity:1;stroke:url(#linearGradient3809);stroke-width:20;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985"
+       width="471.42856"
+       height="800"
+       x="214.28572"
+       y="149.50504" />
+    <rect
+       y="190.12398"
+       x="272.87808"
+       height="350.19064"
+       width="354.24384"
+       id="rect2987"
+       style="fill:url(#linearGradient3828);stroke:url(#linearGradient3809);stroke-width:11.4704504;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       style="fill:url(#linearGradient3840);fill-opacity:1;stroke:none"
+       id="rect3830"
+       width="395.97211"
+       height="116.05687"
+       x="252.01393"
+       y="567.53564" />
+    <g
+       id="g3823"
+       style="fill:#6bbef6;fill-opacity:1;stroke:url(#linearGradient3809);stroke-opacity:1">
+      <rect
+         y="570.30884"
+         x="270.20575"
+         height="98.392464"
+         width="359.5885"
+         id="rect2989"
+         style="fill:#6bbef6;fill-opacity:1;stroke:url(#linearGradient3809);stroke-width:6.12577248;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         style="fill:#6bbef6;fill-opacity:1;stroke:url(#linearGradient3809);stroke-width:4.07529497;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect2991"
+         width="361.63898"
+         height="43.300083"
+         x="269.18051"
+         y="597.85504" />
+      <rect
+         y="587.28351"
+         x="366.09668"
+         height="64.443115"
+         width="167.80663"
+         id="rect2993"
+         style="fill:#99d3fb;fill-opacity:1;stroke:url(#linearGradient3809);stroke-width:4.79931211;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <rect
+       style="fill:url(#linearGradient3821);fill-opacity:1;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3815"
+       width="225.71428"
+       height="182.85715"
+       x="-1480"
+       y="-79.066391" />
+    <rect
+       style="fill:#8893a8;fill-opacity:1;stroke:none"
+       id="rect3842"
+       width="12.068966"
+       height="150"
+       x="706.67249"
+       y="-645.6897"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       y="-645.6897"
+       x="725.638"
+       height="150"
+       width="12.068966"
+       id="rect3844"
+       style="fill:#8893a8;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#8893a8;fill-opacity:0.31382979;stroke:none"
+       id="rect3846"
+       width="124.13793"
+       height="150"
+       x="768.74146"
+       y="-645.6897"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:url(#linearGradient3850);fill-opacity:1;stroke:none"
+       id="rect3848"
+       width="343.42502"
+       height="82.475258"
+       x="278.28751"
+       y="192.08511" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3860"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3862"><rect
+           id="rect3864"
+           width="313.79309"
+           height="255.17241"
+           x="86.206894"
+           y="125.17242" /></flowRegion><flowPara
+         id="flowPara3866"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3868"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3809);fill-opacity:1;stroke:none;font-family:Sans;"
+       transform="translate(204.28125,139.5)"><flowRegion
+         id="flowRegion3870"><rect
+           id="rect3872"
+           width="303.44827"
+           height="272.41379"
+           x="94.827583"
+           y="97.586205"
+           style="font-size:24px;fill:url(#linearGradient3809)" /></flowRegion><flowPara
+         id="flowPara3874">brb</flowPara><flowPara
+         id="flowPara3876">TACO ACQUIRED.</flowPara><flowPara
+         id="flowPara3878">Let's get something to drink or something.Didn't get the drink I wanted. Not gonna go into why. brb</flowPara><flowPara
+         id="flowPara3882">TACO ACQUIRED.</flowPara><flowPara
+         id="flowPara3884">Let's get something to drink or something. HEY LISTEN</flowPara><flowPara
+         id="flowPara3886">Didn't get the drink I wanted. Not gonna go into why.  Hey</flowPara><flowPara
+         id="flowPara3880" /></flowRoot>    <flowRoot
+       transform="translate(204.28125,139.5)"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3809);fill-opacity:1;stroke:none;font-family:Sans;filter:url(#filter3924)"
+       id="flowRoot3900"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3902"><rect
+           style="font-size:24px;fill:url(#linearGradient3809)"
+           y="97.586205"
+           x="94.827583"
+           height="272.41379"
+           width="303.44827"
+           id="rect3904" /></flowRegion><flowPara
+         id="flowPara3906">brb</flowPara><flowPara
+         id="flowPara3908">TACO ACQUIRED.</flowPara><flowPara
+         id="flowPara3910">Let's get something to drink or something.Didn't get the drink I wanted. Not gonna go into why. brb</flowPara><flowPara
+         id="flowPara3912">TACO ACQUIRED.</flowPara><flowPara
+         id="flowPara3914">Let's get something to drink or something. HEY LISTEN</flowPara><flowPara
+         id="flowPara3916">Didn't get the drink I wanted. Not gonna go into why.  Hey</flowPara><flowPara
+         id="flowPara3918" /></flowRoot>  </g>
+</svg>

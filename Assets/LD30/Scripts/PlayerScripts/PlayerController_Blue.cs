@@ -6,6 +6,10 @@ public class PlayerController_Blue : MonoBehaviour {
 	public GameObject theGameController;
 	public GameController gcscript;
 
+	public Sprite standingSprite;
+	public Sprite walkingSprite;
+	public Sprite jumpingSprite;
+
 	public AudioClip jumpingSound;
 	public AudioClip landingSound;
 	public AudioClip attackingSound;
@@ -73,6 +77,30 @@ public class PlayerController_Blue : MonoBehaviour {
 					if (doJump && canJump > 0)
 					{
 						rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpSpeed);
+					}
+
+					//Animate the sprites and stuff.
+					SpriteRenderer sr = GetComponent<SpriteRenderer>();
+					if (rigidbody2D.velocity.y <= .5)
+					{
+						if (rigidbody2D.velocity.x > 0)
+						{
+							sr.sprite = walkingSprite;
+							transform.localScale = new Vector3 (-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+						}
+						else if (rigidbody2D.velocity.x < 0)
+						{
+							transform.localScale = new Vector3 (Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+							sr.sprite = walkingSprite;
+						}
+						else if (rigidbody2D.velocity.x == 0)
+						{
+							sr.sprite = standingSprite;
+						}
+					}
+					else
+					{
+						sr.sprite = jumpingSprite;
 					}
 				}
 			}
